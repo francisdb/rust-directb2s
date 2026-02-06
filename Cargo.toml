@@ -2,6 +2,21 @@
 name = "directb2s"
 version = "0.1.0"
 edition = "2024"
+description = "Library for reading visual pinball directb2s files"
+repository = "https://github.com/francisdb/rust-directb2s"
+readme = "README.md"
+license = "MIT"
+documentation = "https://docs.rs/rust-directb2s"
+
+keywords = ["vpin", "visual-pinball", "virtual-pinball", "vpx", "directb2s"]
+categories = ["game-engines", "game-development"]
+
+[package.metadata.docs.rs]
+all-features = true
+
+exclude = [
+    "testdata/*",
+]
 
 [dependencies]
 quick-xml = { version = "0.39.0", features = ["serialize"] }
