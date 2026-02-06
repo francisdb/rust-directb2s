@@ -1,4 +1,4 @@
-
+use directb2s::DirectB2SData;
 use pretty_assertions::assert_eq;
 use rayon::prelude::*;
 use roxmltree::{Document, Node, NodeType};
@@ -9,7 +9,6 @@ use std::io;
 use std::io::{Error, Read};
 use std::path::{Path, PathBuf};
 use testresult::TestResult;
-use directb2s::DirectB2SData;
 
 mod common;
 

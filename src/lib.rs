@@ -810,7 +810,7 @@ mod tests {
         let file = std::fs::File::open(
             "testdata/Police Force (Williams 1989) FULL DMD.stripped.directb2s",
         )
-            .unwrap();
+        .unwrap();
         let reader = std::io::BufReader::new(file);
         let data = read(reader).unwrap();
 
