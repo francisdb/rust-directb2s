@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.2](https://github.com/francisdb/rust-directb2s/compare/v0.1.1...v0.1.2) - 2026-07-06
+
+### Other
+
+- *(deps)* update quick-xml requirement from 0.40.1 to 0.41.0 ([#6](https://github.com/francisdb/rust-directb2s/pull/6))
+- *(deps)* bump Swatinem/rust-cache from 2.8.2 to 2.9.1 ([#2](https://github.com/francisdb/rust-directb2s/pull/2))
+- *(deps)* update quick-xml requirement from 0.39.0 to 0.40.1 ([#4](https://github.com/francisdb/rust-directb2s/pull/4))
+
 ## [0.1.1](https://github.com/francisdb/rust-directb2s/compare/v0.1.0...v0.1.1) - 2026-02-06
 
 ### Other
