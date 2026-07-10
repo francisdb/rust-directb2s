@@ -24,7 +24,7 @@ jobs:
     runs-on: ${{ matrix.platform.os }}
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Install minimal stable with clippy and rustfmt
         uses: dtolnay/rust-toolchain@stable
         with:
